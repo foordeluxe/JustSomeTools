@@ -10,7 +10,7 @@ for line in passList:
     val = ""
     incr = 0
     for c in line.rstrip():
-        if incr == 0:
+        if incr == 0 and c != "@":
             val = "$@"
         else:
             val += "$" + c

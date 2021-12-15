@@ -15,8 +15,7 @@ You will be asked to input a string then a number for which method you want to u
 This tool will generate from domain.com into $@$d$o$m$a$i$n$.$c$o$m.  
 Really great when testing a wordlist with names and using this as rule to generate emails.  
   
-Set Chmod: `chmod +x domainConvert.py`  
-Usage: `./domainConvert <InputFile> <OutputFile>`  
+Usage: `python3 domainConvert.py <InputFile> <OutputFile>`  
   
 Output Example: `$@$h$e$l$l$o$.$w$o$r$l$d`  
 Stripped Example: `@hello.world`  

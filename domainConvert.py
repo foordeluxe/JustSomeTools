@@ -14,7 +14,7 @@ if len(sys.argv) == 3:
                 incr = 0
                 for c in line.rstrip():
                     if incr == 0 and c != '@':
-                        val = "$@"
+                        val = "$@$" + c
                     else:
                         val += "$" + c
                     incr += 1

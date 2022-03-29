@@ -32,7 +32,7 @@ if __name__ == '__main__':
                 incr = 0
                 for char in line.rstrip():
                     if incr == 0 and char != '@':
-                        value = "$@" + char
+                        value = "$@$" + char
                     else:
                         value += "$" + char
                     incr += 1

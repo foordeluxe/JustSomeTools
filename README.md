@@ -6,7 +6,7 @@ A simple tool to make single rules. Append and Preppend or both.
 This tool will also make special chars into hex.  
 Usage: `python3 ./rulegen.py -c 0 -f file.txt -o out.rule` 
   
-Converting words:  
+C/Converting words:  
 0 = Append  
 1 = Prepend  
 2 = Append and Prepend  
